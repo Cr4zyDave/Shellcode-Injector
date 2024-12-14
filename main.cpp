@@ -3,6 +3,13 @@
 # include <stdio.h>
 
 int main(int argc, char** argv) {
+	printf(" __        __    _     _            __        __    _     _           \n");
+	printf(" \\ \\      / /_ _| |__ | |__  _   _  \\ \\      / /__ | |__ | |__  _   _ \n");
+	printf("  \\ \\ /\\ / / _` | '_ \\| '_ \\| | | |  \\ \\ /\\ / / _ \\| '_ \\| '_ \\| | | |\n");
+	printf("   \\ V  V / (_| | |_) | |_) | |_| |   \\ V  V / (_) | |_) | |_) | |_| |\n");
+	printf("    \\_/\\_/ \\__,_|_.__/|_.__/ \\__, |    \\_/\\_/ \\___/|_.__/|_.__/ \\__, |\n");
+	printf("                             |___/                              |___/ \n\n");
+
 	if (argc != 3) {
 		yapBad("Usage: [PROCESS] [SHELLCODE.BIN]");
 		return EXIT_FAILURE;
